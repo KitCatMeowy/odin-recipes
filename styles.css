@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+}
+
+.title {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: fit-content;
+    padding: 40px;
+}
+
+.recipethumbnail {
+    display: inline-block;
+    margin: 50px;
+    padding: 50px
+}
+
+* { border: 1px solid black; }
