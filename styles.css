@@ -2,6 +2,10 @@ body {
     margin: 0px;
 }
 
+div {
+    margin: 50px;
+}
+
 .title {
     margin: auto;
     margin-top: 50px;
@@ -9,12 +13,23 @@ body {
     text-align: center;
     width: fit-content;
     padding: 40px;
+    background-color: lightsalmon;
+    border-radius: 30px;
 }
 
 .recipethumbnail {
     display: inline-block;
     margin: 50px;
-    padding: 50px
+    padding: 50px;
+    height: 200px;
+    width: 266px;
+    background-size: contain;
+}
+
+.recipethumbnail img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 * { border: 1px solid black; }
