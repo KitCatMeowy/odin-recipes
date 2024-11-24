@@ -20,16 +20,27 @@ div {
 .recipethumbnail {
     display: inline-block;
     margin: 50px;
-    padding: 50px;
-    height: 200px;
-    width: 266px;
+    padding: 0px;
+    height: 25%;
+    width: 25%;
     background-size: contain;
+    background-color:rgb(255, 200, 190);
+    border-radius: 20px;
 }
 
 .recipethumbnail img {
     height: 100%;
     width: 100%;
     object-fit: contain;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.recipethumbnail a {
+    font-size: 20px;
+    display: block;
+    height: 25px;
+    width: auto;
+    margin: 20px;
 }
 
 * { border: 1px solid black; }
